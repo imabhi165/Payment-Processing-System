@@ -14,7 +14,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         try {
-            System.out.print("Enter amount (e.g. 1500.75): ");
+            System.out.print("Enter amount: ");
             double amount = Double.parseDouble(scanner.nextLine().trim());
 
             System.out.println("Choose payment method:");
